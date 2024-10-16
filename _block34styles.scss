@@ -1,0 +1,107 @@
+.product-circle-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 620px;
+    margin-top: 30px;
+}
+
+    .product-circle-list li {
+        display: flex;
+        align-items: flex-start;
+        font-size: 24px;
+        color: var(--color-white);
+    }
+
+    .product-circle-list .circle {
+        width: 20px;
+        height: 20px;
+        background-color: var(--color-gold);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 8px;
+        flex-shrink: 0; /* Запрещаем уменьшение круга */
+    }
+
+    .product-circle-list .highlight {
+        color: var(--color-gold);
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 140%;
+        display: inline;
+    }
+
+
+.product-box {
+    position: relative;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid var(--color-gold);
+    border-radius: 10px;
+    width: 35%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-image {
+    margin-top: auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.additional-box {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 20px; 
+}
+
+    .additional-box p {
+        margin: 0;
+        font-size: 20px;
+        color: var(--color-dark);
+    }
+
+.gold-background {
+    background-color: var(--color-gold);
+    border: 2px solid var(--color-gold);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.white-square {
+    background-color: var(--color-white);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px; 
+    width: 50px;
+    height: 50px;
+}
+.products-info-image{
+    margin-left: 120px;
+    width: 1200;
+    height: auto;
+}
+.products-info-image{
+    display: flex;
+    position: relative;
+   
+    &-content-plustext{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        p{
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 140%;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.footer {
+  display: flex;
+  justify-content: center; /* Центрирует шапку по горизонтали */
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-inner {
+  background-image: url(./images/header-bg.png);
+  width: 100%;
+}
+.footer-slogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  padding-top: 120px;
+}
+.footer-slogan-divider {
+  width: 6px;
+  height: 111px;
+  border-radius: 30px 0px 0px 0px;
+  background-color: var(--color-gold);
+}
+.footer-slogan-text {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 66px;
+  text-align: right;
+  max-width: 300px;
+}
+.footer-slogan-logo {
+  width: 310px;
+  height: 114.7px;
+}
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 251.5px;
+       column-gap: 251.5px;
+  padding-inline: 120px;
+  padding-top: 50px;
+}
+.footer-info > * {
+  color: #CDC8C8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: center;
+}
+.footer-info-button {
+  background-color: none;
+  text-decoration: none;
+}/*# sourceMappingURL=footerstyles.css.map */

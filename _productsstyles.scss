@@ -1,0 +1,75 @@
+.products{
+    display: flex;
+     justify-content: center; /* Центрирует шапку по горизонтали */
+     width: 100%;
+     box-sizing: border-box;
+    
+     &-inner{
+        width: 100%;
+        margin-top: 120px;
+    }
+    &-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 333px;
+        margin-bottom: 50px;
+        &-text{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            h2{
+                font-weight: 800;
+                font-size: 60px;
+                line-height: 110%;
+                margin: 0;
+            }
+            p{
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 130%;
+            }
+        }
+    }
+    &-info{
+        display: flex;
+        flex-direction: row;
+        column-gap: 85px;
+    }
+    &-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        padding-top: 33.5px;
+        padding-bottom: 33.5px;
+        &-item{
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            
+            b{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #d3a972;
+                border-radius: 10px;
+                width: 114px;
+                height: 110px;
+                font-weight: 900;
+                font-size: 74px;
+                line-height: 140%;
+                min-width: 113px;
+                
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 110%;
+                color: #fff;
+            }
+        }
+    }
+}
